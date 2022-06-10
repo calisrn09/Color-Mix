@@ -1,0 +1,43 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/60/5e/69/605e693240a565283c8016f82950ce82.jpg);
+    background-position: 0%;
+    color: #3a3a3a;
+}
+
+img{
+max-width: 150px;
+max-height: 150px;
+width: auto;
+height: auto;
+}
+
+h1{
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    text-decoration: wavy;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#color{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #3a3a3a;
+    margin-bottom: 20px;
+}
